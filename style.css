@@ -11,7 +11,14 @@ body {
 }
 
 .hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 .reset-list {
@@ -105,19 +112,19 @@ body {
   }
 }
 
-.add__wrapper {
-  display: flex;
-}
-
 .add__title {
   display: block;
   margin: 0 0 20px;
 }
 
+.add__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .add__wrapper__input {
-  width: 318px;
+  width: 425px;
   display: inline-block;
-  flex-grow: 1;
 }
 
 .btn-delete-img {
