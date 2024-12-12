@@ -10,9 +10,13 @@ body {
   margin: 0 auto 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .reset-list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
   list-style: none;
 }
 
@@ -83,7 +87,7 @@ body {
   width: 226px;
 }
 
-.header {
+.header__container {
   text-align: right;
 }
 
@@ -96,7 +100,7 @@ body {
 }
 
 @media (max-width:768px) {
-  .header {
+  .header__container {
     text-align: center;
   }
 }
