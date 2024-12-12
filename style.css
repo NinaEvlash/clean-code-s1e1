@@ -3,16 +3,19 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .reset-list {
   margin:0;
   padding: 0px;
   list-style: none;
 }
+
 .title {
   color: #333;
   font-weight: 700;
@@ -22,6 +25,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
+
 .btn {  
   background: none;
   border: 0px;
@@ -33,6 +37,7 @@ body {
   cursor: pointer;
   vertical-align: middle;
 }
+
 .btn:hover {
   color: #3a3A3a;
 }
@@ -41,6 +46,7 @@ body {
   list-style:none;
   margin: 0 10px;
 }
+
 .input-text {
   margin: 0;
   font-size: 18px;
@@ -56,9 +62,11 @@ body {
   width: 226px;
   display:none;
 }
+
 .input-text:focus {
   color: #333;
 }
+
 .list-item {
   overflow: hidden;
   padding: 20px 0;
@@ -67,54 +75,67 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .label-text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px
 }
+
 .header {
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
+
 @media (max-width:768px) {
-.header {
-  text-align: center;
+  .header {
+    text-align: center;
+  }
 }
-}
+
 .add__wrapper {
   display: flex;
 }
+
 .add__title {
   display: block;
   margin: 0 0 20px;
 }
+
 .add__wrapper__input {
   width: 318px;
   display: inline-block;
   flex-grow: 1;
 }
+
 .btn-delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn-delete-img:hover {
   transform: rotateZ(0);
 }
+
 .label-line-through {
   text-decoration: line-through;
   color: #888;
 }
+
 .input-edit-mode {
   display: inline-block;
   width: 224px;
 }
+
 .label-edit-mode {
   display:none;
 }
