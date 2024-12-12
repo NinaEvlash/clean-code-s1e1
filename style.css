@@ -11,7 +11,7 @@ body {
 }
 
 .reset-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
   list-style: none;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .input-checkbox {
-  list-style:none;
+  list-style: none;
   margin: 0 10px;
 }
 
@@ -58,9 +58,9 @@ body {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-  list-style:none;
+  list-style: none;
   width: 226px;
-  display:none;
+  display: none;
 }
 
 .input-text:focus {
@@ -137,5 +137,5 @@ body {
 }
 
 .label-edit-mode {
-  display:none;
+  display: none;
 }
