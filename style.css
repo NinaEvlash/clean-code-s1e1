@@ -28,7 +28,7 @@ body {
 
 .btn {  
   background: none;
-  border: 0px;
+  border: 0;
   outline: none;
   color: #888;
   font-size: 15px;
@@ -43,7 +43,7 @@ body {
 }
 
 .input-checkbox {
-  list-style: none;
+  outline: none;
   margin: 0 10px;
 }
 
@@ -58,7 +58,7 @@ body {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-  list-style: none;
+  outline: none;
   width: 226px;
   display: none;
 }
@@ -80,7 +80,7 @@ body {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px
+  width: 226px;
 }
 
 .header {
