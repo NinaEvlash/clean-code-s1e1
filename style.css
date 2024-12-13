@@ -21,7 +21,7 @@ body {
   clip: rect(0 0 0 0);
 }
 
-.reset-list {
+.list_reset {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -53,12 +53,12 @@ body {
   color: #3a3A3a;
 }
 
-.input-checkbox {
+.checkbox {
   outline: none;
   margin: 0 10px;
 }
 
-.input-text {
+.input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -74,11 +74,11 @@ body {
   display: none;
 }
 
-.input-text:focus {
+.input:focus {
   color: #333;
 }
 
-.list-item {
+.item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -87,7 +87,7 @@ body {
   align-items: center;
 }
 
-.label-text {
+.label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -127,26 +127,26 @@ body {
   display: inline-block;
 }
 
-.btn-delete-img {
+.delete_btn_img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-delete-img:hover {
+.delete_btn_img:hover {
   transform: rotateZ(0);
 }
 
-.label-line-through {
+.label_line_through {
   text-decoration: line-through;
   color: #888;
 }
 
-.input-edit-mode {
+.input_mode {
   display: inline-block;
   width: 224px;
 }
 
-.label-edit-mode {
+.label_mode {
   display: none;
 }

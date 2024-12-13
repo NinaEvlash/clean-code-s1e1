@@ -19,7 +19,7 @@
           <div class="add__wrapper">
             <lebel class="add__wrapper__lebel">
               <span class="hidden">Add Item</span>
-              <input id="new-task" class="add__wrapper__input input-text" type="text">
+              <input id="new-task" class="add__wrapper__input input" type="text">
             </lebel>
             <button class="add__wrapper__btn btn">Add</button>
           </div>
@@ -28,23 +28,23 @@
       <section class="incomplete">
         <div class="incomplete__container container">
           <h2 class="incomplete__title title">Todo</h2>
-          <ul id="incomplete-task" class="incomplete__list reset-list">
-            <li class="incomplete__list__item list-item">
-              <input class="input-checkbox" type="checkbox">
-              <label class="label-text">Pay Bills</label>
-              <input class="input-text" type="text">
-              <button class="edit btn">Edit</button>
-              <button class="delete btn">
-                <img class="btn-delete-img" src="./remove.svg" alt="Image of an arrow with a cross">
+          <ul id="incomplete-task" class="incomplete__list list_reset">
+            <li class="item">
+              <input class="checkbox" type="checkbox">
+              <label class="label">Pay Bills</label>
+              <input class="input" type="text">
+              <button class="edd_btn btn">Edit</button>
+              <button class="delete_btn btn">
+                <img class="delete_btn_img" src="./remove.svg" alt="Image of an arrow with a cross">
               </button>
             </li>
-            <li class="incomplete__list__item list-item">
-              <input class="input-checkbox" type="checkbox">
-              <label class="label-edit-mode label-text">Go&nbsp;Shopping</label>
-              <input class="input-edit-mode input-text" type="text" value="Go Shopping">
-              <button class="edit btn">Save</button>
-              <button class="delete btn">
-                <img class="btn-delete-img" src="./remove.svg" alt="Image of an arrow with a cross">
+            <li class="item">
+              <input class="checkbox" type="checkbox">
+              <label class="label label_mode">Go&nbsp;Shopping</label>
+              <input class="input input_mode" type="text" value="Go Shopping">
+              <button class="edd_btn btn">Save</button>
+              <button class="delete_btn btn">
+                <img class="delete_btn_img" src="./remove.svg" alt="Image of an arrow with a cross">
               </button>
             </li>
           </ul>
@@ -53,14 +53,14 @@
       <section class="complete">
         <div class="complete__container container">
           <h2 class="complete__title title">Completed</h2>
-          <ul id="complete-task" class="complete__list reset-list">
-            <li class="complete__list__item list-item">
-              <input class="input-checkbox" type="checkbox" checked>
-              <label class="label-line-through label-text">See the Doctor</label>
-              <input class="input-text" type="text">
-              <button class="edit btn">Edit</button>
-              <button class="delete btn">
-                <img class="btn-delete-img" src="./remove.svg" alt="Image of an arrow with a cross">
+          <ul id="complete-task" class="complete__list list_reset">
+            <li class="item">
+              <input class="checkbox" type="checkbox" checked>
+              <label class="label label_line_through">See the Doctor</label>
+              <input class="input" type="text">
+              <button class="edd_btn btn">Edit</button>
+              <button class="delete_btn btn">
+                <img class="delete_btn_img" src="./remove.svg" alt="Image of an arrow with a cross">
               </button>
             </li>
           </ul>
