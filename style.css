@@ -127,13 +127,13 @@ body {
   display: inline-block;
 }
 
-.delete_btn_img {
+.delete-btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete_btn_img:hover {
+.delete-btn-img:hover {
   transform: rotateZ(0);
 }
 
