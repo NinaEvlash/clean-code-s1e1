@@ -127,6 +127,11 @@ body {
   display: inline-block;
 }
 
+.incomplete__list,
+.complete__list {
+  padding: 0;
+}
+
 .delete-btn-img {
   height: 2em;
   transform: rotateZ(45deg);
