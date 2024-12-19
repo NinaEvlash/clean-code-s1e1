@@ -164,3 +164,8 @@ body {
   display: inline-block;
   width: 224px;
 }
+
+ul#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
