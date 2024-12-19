@@ -7,10 +7,10 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-const taskInput = document.querySelector(".add__wrapper__input");
+var taskInput=document.querySelector(".add__wrapper__input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-const incompleteTaskHolder = document.querySelector(".incomplete__list");
-const completedTasksHolder = document.querySelector(".complete__list");//completed-tasks
+var incompleteTaskHolder=document.querySelector(".incomplete__list");//ul of #incompleteTasks
+var completedTasksHolder=document.querySelector(".complete__list");//completed-tasks
 
 //New task list item
 var createNewTaskElement=function(taskString){
@@ -86,11 +86,10 @@ var editTask=function(){
 
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
-    var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("editMode");
+    var editBtn=listItem.querySelector(".add-btn");
+    var containsClass=listItem.classList.contains("edit_mode");
     //If class of the parent is .editmode
     if(containsClass){
-
         //switch to .editmode
         //label becomes the inputs value.
         label.innerText=editInput.value;
@@ -101,7 +100,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("editMode");
+    listItem.classList.toggle("edit_mode");
 };
 
 
