@@ -155,11 +155,12 @@ body {
 .label_mode {
   display: none;
 }
-ul li.edit_mode label {
+
+.edit_mode_label {
   display: none;
 }
 
-ul li.edit_mode input[type=text] {
+.edit_mode_input {
   display: inline-block;
   width: 224px;
 }
